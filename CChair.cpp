@@ -2,6 +2,7 @@
 
 void CChair::setData()
 {
+	std::cin.ignore();
 	std::cout << "Chair: " << std::endl;
 
 	CFurniture::setData();
@@ -22,7 +23,3 @@ CChair::CChair(): CFurniture()
 
 }
 
-float CChair::getPrice()
-{
-	return price;
-}

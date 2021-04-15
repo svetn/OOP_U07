@@ -16,6 +16,12 @@ void CFurniture::displayData()
 
 }
 
+float CFurniture::getPrice()
+{
+	return price;
+}
+
+
 CFurniture::CFurniture()
 {
 	name = "Empty";

@@ -2,6 +2,7 @@
 
 void CTable::setData()
 {
+	std::cin.ignore();
 	std::cout << "Table: " << std::endl;
 
 	CFurniture::setData();
@@ -20,7 +21,3 @@ CTable::CTable(): CFurniture()
 	capacity = 0;
 }
 
-float CTable::getPrice()
-{
-	return price;
-}

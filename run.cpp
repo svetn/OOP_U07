@@ -82,7 +82,7 @@ int main()
 				break;
 			}
 
-			case '0':done = 1; break;
+			case '0': done = 1; break;
 			default: done = 0; break;
 			}
 		}

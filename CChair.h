@@ -10,6 +10,5 @@ public:
 	void setData();
 	void displayData();
 	CChair();
-	float getPrice();
 };
 

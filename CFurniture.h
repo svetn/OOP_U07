@@ -11,6 +11,7 @@ protected:
 public:
 	void setData();
 	void displayData();
+	float getPrice();
 	CFurniture();
 };
 
